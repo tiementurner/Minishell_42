@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        ::::::::            */
-/*   execute_pipe.c                                     :+:    :+:            */
-/*                                                     +:+                    */
-/*   By: tiemen <tiemen@student.codam.nl>             +#+                     */
-/*                                                   +#+                      */
-/*   Created: 2020/12/07 15:49:39 by tiemen        #+#    #+#                 */
-/*   Updated: 2021/02/12 20:17:20 by tiemen        ########   odam.nl         */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "executer.h"
 
 static void	redirect(t_pipe *pipe_switch, int i, t_node *node, t_data *data)

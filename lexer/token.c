@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        ::::::::            */
-/*   token.c                                            :+:    :+:            */
-/*                                                     +:+                    */
-/*   By: gbouwen <gbouwen@student.codam.nl>           +#+                     */
-/*                                                   +#+                      */
-/*   Created: 2020/10/28 16:00:51 by gbouwen       #+#    #+#                 */
-/*   Updated: 2021/02/09 16:55:54 by tiemen        ########   odam.nl         */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "lexer.h"
 
 void	init_token(t_data *data, t_list *token, int length)
@@ -60,7 +48,7 @@ void	set_double_redirect(t_data *data, t_list **token, int i)
 {
 	(*token)->content[0] = '>';
 	(*token)->content[1] = '>';
-	(*token)->type = CHAR_DOUBLE_REDIRECT;
+	(*token)->type = CHAR_APPEND;
 	(*token)->next = malloc(sizeof(t_list));
 	if (!(*token)->next)
 		free_struct_error(data, "Malloc failed\n");

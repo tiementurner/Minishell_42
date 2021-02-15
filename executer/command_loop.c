@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        ::::::::            */
-/*   command_loop.c                                     :+:    :+:            */
-/*                                                     +:+                    */
-/*   By: gbouwen <gbouwen@student.codam.nl>           +#+                     */
-/*                                                   +#+                      */
-/*   Created: 2020/11/03 16:19:03 by gbouwen       #+#    #+#                 */
-/*   Updated: 2021/02/12 20:17:17 by tiemen        ########   odam.nl         */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "executer.h"
 
 void		restore_stdin_stdout(int save_in, int save_out)

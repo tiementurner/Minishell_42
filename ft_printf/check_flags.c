@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        ::::::::            */
-/*   get_width_precision.c                              :+:    :+:            */
-/*                                                     +:+                    */
-/*   By: gbouwen <marvin@codam.nl>                    +#+                     */
-/*                                                   +#+                      */
-/*   Created: 2020/01/09 12:24:43 by gbouwen       #+#    #+#                 */
-/*   Updated: 2020/01/17 11:33:14 by gbouwen       ########   odam.nl         */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "libftprintf.h"
 
 void	get_width_precision(t_stats *data, va_list args, const char *str,

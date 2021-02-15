@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        ::::::::            */
-/*   redirections.c                                     :+:    :+:            */
-/*                                                     +:+                    */
-/*   By: gbouwen <gbouwen@student.codam.nl>           +#+                     */
-/*                                                   +#+                      */
-/*   Created: 2020/12/17 13:49:46 by gbouwen       #+#    #+#                 */
-/*   Updated: 2021/02/12 14:38:02 by gbouwen       ########   odam.nl         */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "executer.h"
 
 static int	file_out_or_file_out_append(t_node *node, int *current_fds)

@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        ::::::::            */
-/*   remove_quotes.c                                    :+:    :+:            */
-/*                                                     +:+                    */
-/*   By: gbouwen <gbouwen@student.codam.nl>           +#+                     */
-/*                                                   +#+                      */
-/*   Created: 2021/02/12 13:53:08 by gbouwen       #+#    #+#                 */
-/*   Updated: 2021/02/12 13:55:32 by gbouwen       ########   odam.nl         */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "expander.h"
 
 void	in_single_quotes(char *result, char *content, int *x, int *i)

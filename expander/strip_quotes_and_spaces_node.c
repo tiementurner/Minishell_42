@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        ::::::::            */
-/*   strip_quotes_and_spaces_node.c                     :+:    :+:            */
-/*                                                     +:+                    */
-/*   By: gbouwen <gbouwen@student.codam.nl>           +#+                     */
-/*                                                   +#+                      */
-/*   Created: 2021/02/02 10:32:21 by gbouwen       #+#    #+#                 */
-/*   Updated: 2021/02/12 13:58:44 by gbouwen       ########   odam.nl         */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "expander.h"
 
 static void	trim_loop(char *result, char *trimmed, int *x, int *i)

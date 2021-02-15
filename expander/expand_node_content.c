@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        ::::::::            */
-/*   expand_node_content.c                              :+:    :+:            */
-/*                                                     +:+                    */
-/*   By: gbouwen <gbouwen@student.codam.nl>           +#+                     */
-/*                                                   +#+                      */
-/*   Created: 2021/02/02 11:31:59 by gbouwen       #+#    #+#                 */
-/*   Updated: 2021/02/12 14:29:46 by gbouwen       ########   odam.nl         */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "expander.h"
 
 static void	found_quote(t_data *data, char *content, t_expander *expander)

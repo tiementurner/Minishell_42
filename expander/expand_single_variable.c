@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        ::::::::            */
-/*   expand_single_variable.c                           :+:    :+:            */
-/*                                                     +:+                    */
-/*   By: gbouwen <gbouwen@student.codam.nl>           +#+                     */
-/*                                                   +#+                      */
-/*   Created: 2021/02/03 14:30:24 by gbouwen       #+#    #+#                 */
-/*   Updated: 2021/02/12 14:04:06 by gbouwen       ########   odam.nl         */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "expander.h"
 
 static char	*add_to_result(t_data *data, char *expander_result, char *value,

@@ -1,15 +1,3 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         ::::::::             #
-#    Makefile                                           :+:    :+:             #
-#                                                      +:+                     #
-#    By: gbouwen <marvin@codam.nl>                    +#+                      #
-#                                                    +#+                       #
-#    Created: 2019/10/28 13:23:35 by gbouwen       #+#    #+#                  #
-#    Updated: 2021/01/21 14:57:59 by gbouwen       ########   odam.nl          #
-#                                                                              #
-# **************************************************************************** #
-
 NAME 	=	libft.a
 
 SOURCE 	=	ft_atoi.c ft_strlen.c ft_isalpha.c ft_isdigit.c ft_isalnum.c \

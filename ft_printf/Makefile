@@ -1,15 +1,3 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         ::::::::             #
-#    Makefile                                           :+:    :+:             #
-#                                                      +:+                     #
-#    By: gbouwen <marvin@codam.nl>                    +#+                      #
-#                                                    +#+                       #
-#    Created: 2020/01/09 14:43:41 by gbouwen       #+#    #+#                  #
-#    Updated: 2020/10/29 14:31:14 by gbouwen       ########   odam.nl          #
-#                                                                              #
-# **************************************************************************** #
-
 NAME = libftprintf.a
 
 SOURCE_FILES =	ft_printf.c utils_struct.c check_flags.c check_conversions.c \

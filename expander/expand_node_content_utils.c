@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        ::::::::            */
-/*   expand_node_content_utils.c                        :+:    :+:            */
-/*                                                     +:+                    */
-/*   By: gbouwen <gbouwen@student.codam.nl>           +#+                     */
-/*                                                   +#+                      */
-/*   Created: 2021/02/03 11:47:49 by gbouwen       #+#    #+#                 */
-/*   Updated: 2021/02/12 14:29:14 by gbouwen       ########   odam.nl         */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "expander.h"
 
 void	initialize_expander(t_data *data, t_node *node, t_expander *expander)

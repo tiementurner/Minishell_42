@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        ::::::::            */
-/*   export_no_arguments.c                              :+:    :+:            */
-/*                                                     +:+                    */
-/*   By: gbouwen <marvin@codam.nl>                    +#+                     */
-/*                                                   +#+                      */
-/*   Created: 2020/11/05 15:38:42 by gbouwen       #+#    #+#                 */
-/*   Updated: 2021/02/10 15:42:54 by gbouwen       ########   odam.nl         */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "builtins.h"
 
 static void	initialize_indexes_array(int *sorted_indexes, int len)

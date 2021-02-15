@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        ::::::::            */
-/*   fork_and_execute_utils.c                           :+:    :+:            */
-/*                                                     +:+                    */
-/*   By: gbouwen <gbouwen@student.codam.nl>           +#+                     */
-/*                                                   +#+                      */
-/*   Created: 2021/02/10 14:31:00 by gbouwen       #+#    #+#                 */
-/*   Updated: 2021/02/12 15:21:56 by gbouwen       ########   odam.nl         */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "executer.h"
 
 void	empty_path_variable(t_data *data, t_node *node)

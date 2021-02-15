@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        ::::::::            */
-/*   ambiguous_redirect.c                               :+:    :+:            */
-/*                                                     +:+                    */
-/*   By: gbouwen <gbouwen@student.codam.nl>           +#+                     */
-/*                                                   +#+                      */
-/*   Created: 2021/02/12 11:52:12 by gbouwen       #+#    #+#                 */
-/*   Updated: 2021/02/12 20:11:04 by tiemen        ########   odam.nl         */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "expander.h"
 
 static int	found_ambiguous_redirect(t_node *node, char *save)
