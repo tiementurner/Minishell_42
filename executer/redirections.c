@@ -39,7 +39,7 @@ void		set_redirections(t_data *data, t_node *node, int *current_fds)
 	int	new_fd;
 
 	new_fd = -1;
-	if (node->type == FILE_OUT || FILE_OUT_APPEND)
+	if (node->type == FILE_OUT || node->type == FILE_OUT_APPEND)
 		new_fd = file_out_or_file_out_append(node, current_fds);
 	if (node->type == FILE_IN)
 		new_fd = file_in(node, current_fds);

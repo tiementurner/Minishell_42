@@ -50,7 +50,7 @@ static void	search_unset_variable(t_data *data, char *var)
 	if (is_punctuation_mark(var[i]) == 1 || ft_isdigit(var[i]) == 1 ||
 		ft_strlen(var) < 1)
 	{
-		ft_printf("bash: unset: '%s': not a valid identifier\n");
+		ft_printf("bash: unset: '%s': not a valid identifier\n", var);
 		g_question_mark = 1;
 		return ;
 	}
